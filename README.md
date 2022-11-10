@@ -8,8 +8,12 @@ The content of the website was already all there. It is a website that gives inf
 
 Use the navigation on the upper right corner of the page to select which topic you would like to learn more about.
 
-![Top Half](develop/assets/images/screenshot1.png)
-![Bottom Half](develop/assets/images/screenshot2.png)
+![Top Half](assets/images/screenshot1.png)
+![Bottom Half](assets/images/screenshot2.png)
+
+## Link
+
+https://provostma21.github.io/chal_1_horiseon/
 
 ## Credits
 
