@@ -1,0 +1,149 @@
+/* Basic format for all elements. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Background color for the whole website. */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Basic format for all header elements. */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Format for 'Horiseon' in header. */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Color change for the 'seo' in 'Horiseon' header. */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Navigation format*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Makes list items in nav appear left to right and adds margin. */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Changes color of navigation element text. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Changes paragraph text size. */
+p {
+    font-size: 16px;
+}
+
+/* Formats background image under header. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Positions images for search engine optimization and social media marketing div. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Positions image for online reputation management div. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Formats main element. */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Further formats the div elements within the content main parent element. */
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Changes max height of the images within the content main element. */
+.content img {
+    max-height: 200px;
+}
+
+/* Formats the headers used in the content main element. */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Formats elements in the benefits section. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Further formats the div elements in the benefits section. */
+.benefits div {
+   margin-bottom: 32px;
+   color: #ffffff; 
+}
+
+/* Formats the headers for the benefits section. */
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Formats the images used in the benefits section. */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Commented out to match Mock Up. */
+/* .footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+} */
